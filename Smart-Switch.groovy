@@ -1,7 +1,7 @@
 /**
  *  Smart Switch
  *
- *  Version: 1.0-dev
+ *  Version: 1.0
  *
  *  Copyright 2015 Rob Landry
  *
@@ -21,15 +21,15 @@ definition(
 	author:		"Rob Landry",
 	description:	"Turn on/off switch with a time delay.",
     category: "Mode Magic",
-	iconUrl:	"https://s3.amazonaws.com/smartapp-icons/ModeMagic/Cat-ModeMagic.png",
-   	iconX2Url:	"https://s3.amazonaws.com/smartapp-icons/ModeMagic/Cat-ModeMagic@2x.png",
-	iconX3Url:	"https://s3.amazonaws.com/smartapp-icons/ModeMagic/Cat-ModeMagic@3x.png")
+	iconUrl:	"https://s3.amazonaws.com/smartapp-icons/Convenience/App-BigButtonsAndSwitches.png",
+   	iconX2Url:	"https://s3.amazonaws.com/smartapp-icons/Convenience/App-BigButtonsAndSwitches@2x.png",
+	iconX3Url:	"https://s3.amazonaws.com/smartapp-icons/Convenience/App-BigButtonsAndSwitches@2x.png")
 
 
 preferences {
 	section("Info") {
 		paragraph "Author:  Rob Landry"
-		paragraph "Version: 1.0-dev"
+		paragraph "Version: 1.0"
 		paragraph "Date:    2/12/2015"
 	}
 	section("Devices") {
