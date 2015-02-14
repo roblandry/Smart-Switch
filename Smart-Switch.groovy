@@ -1,7 +1,7 @@
 /**
  *  Smart Switch
  *
- *  Version: 1.0-dev
+ *  Version: 1.0
  *
  *  Copyright 2015 Rob Landry
  *
@@ -29,7 +29,7 @@ definition(
 preferences {
 	section("Info") {
 		paragraph "Author:  Rob Landry"
-		paragraph "Version: 1.0-dev"
+		paragraph "Version: 1.0"
 		paragraph "Date:    2/12/2015"
 	}
 	section("Devices") {
