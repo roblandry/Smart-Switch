@@ -20,7 +20,7 @@ definition(
 	namespace:	"roblandry",
 	author:		"Rob Landry",
 	description:	"Turn on/off switch with a time delay.",
-    category: "Mode Magic",
+	category:	"Mode Magic",
 	iconUrl:	"https://s3.amazonaws.com/smartapp-icons/Convenience/App-BigButtonsAndSwitches.png",
    	iconX2Url:	"https://s3.amazonaws.com/smartapp-icons/Convenience/App-BigButtonsAndSwitches@2x.png",
 	iconX3Url:	"https://s3.amazonaws.com/smartapp-icons/Convenience/App-BigButtonsAndSwitches@2x.png")
@@ -36,7 +36,7 @@ preferences {
 		input "switches", "capability.switch", title: "Switch to turn on/off", multiple: true
 	}
 	section("Preferences") {
-		input "onOff", "bool", title: "Turn it ON of OFF", required: true, defaultValue: 1
+		input "onOff", "bool", title: "Turn it ON or OFF", required: true, defaultValue: 1
 		input "triggerModes", "mode", title: "System Changes Mode", required: false, multiple: true
 		input "delayMinutes", "number", title: "Minutes", required: false, defaultValue: 0
 	}
